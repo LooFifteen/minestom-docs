@@ -5,6 +5,6 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "vitepress": "file:vitepress-1.0.0-rc.36.tgz"
+    "vitepress": "1.0.0-rc.36"
   }
 }

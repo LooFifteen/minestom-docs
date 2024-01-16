@@ -3,23 +3,20 @@
 layout: home
 
 hero:
-  name: "Minestom"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Minestom Documentation"
+  #text: "A VitePress Site"
+  tagline: A one-stop-shop for all your Minestom needs
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /introduction/what-is-minestom
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Visit GitHub
+      link: https://github.com/Minestom/Minestom
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Project Set-up
+    details: Learn how to set up a Minestom project in your build system of choice.
+    link: /introduction/project-set-up
 ---
 

@@ -1,14 +1,13 @@
 # Project Set-up
 
 ::: info
-Minestom requires a Java version of 17 or higher.
+Minestom requires a Java version of 21 or higher.
 :::
 
 ## Artifacts
 | Artifact                       | Version                                                                                                                                                                           | Minecraft Version | GitHub                                                                                                                                                                       |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `com.github.Minestom:Minestom` | [![JitPack](https://jitpack.io/v/Minestom/Minestom.svg)](https://jitpack.io/#Minestom/Minestom)                                                                                   | 1.19.3            | [![GitHub](https://img.shields.io/github/actions/workflow/status/Minestom/Minestom/tests.yml.svg?label=GitHub)](https://github.com/Minestom/Minestom)                        |
-| `dev.hollowcube:minestom-ce`   | [![Maven Central](https://img.shields.io/maven-central/v/dev.hollowcube/minestom-ce.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/dev.hollowcube/minestom-ce) | 1.20.4            | [![GitHub](https://img.shields.io/github/actions/workflow/status/hollow-cube/minestom-ce/snapshot-deploy.yaml.svg?label=GitHub)](https://github.com/hollow-cube/minestom-ce) |                                          
+| `com.github.Minestom:Minestom` | [![Maven Central](https://img.shields.io/maven-central/v/net.minestom/minestom-snapshots.svg?label=Maven%20Central)](https://mvnrepository.com/artifact/net.minestom/minestom-snapshots)                                                                                   | 1.20.4            | [![GitHub](https://img.shields.io/github/actions/workflow/status/Minestom/Minestom/snapshot-deploy.yaml.svg?label=GitHub)](https://github.com/Minestom/Minestom)                        |
 
 ## Dependencies
 
@@ -23,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.Minestom:Minestom:REPLACE_WITH_VERSION")
+    implementation("net.minestom:minestom-snapshots:REPLACE_WITH_VERSION")
 }
 ```
 
@@ -34,7 +33,7 @@ repositories {
 }
 
 dependencies {
-    implementation "com.github.Minestom:Minestom:REPLACE_WITH_VERSION"
+    implementation "net.minestom:minestom-snapshots:REPLACE_WITH_VERSION"
 }
 ```
 
@@ -56,8 +55,8 @@ Due to a Minestom dependency on `org.jboss.shrinkwrap.resolver:shrinkwrap-resolv
 
 <dependencies>
     <dependency>
-        <groupId>com.github.Minestom</groupId>
-        <artifactId>Minestom</artifactId>
+        <groupId>net.minestom</groupId>
+        <artifactId>minestom-snapshots</artifactId>
         <version>REPLACE_WITH_VERSION</version>
         <exclusions>
             <exclusion>
